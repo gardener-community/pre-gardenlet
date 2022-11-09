@@ -21,24 +21,20 @@
                         "id": {
                             "allOf": [
                               {
-                                "type": "string",
                                 "pattern": "^.{6}$"
                               },
                               {
-                                "type": "string",
-                                "pattern": "(.*)([a-e]+)(.*)"
+															  "pattern": "([a-z0-9]){6}"
                               }
                             ]
                         },
                         "secret": {
                             "allOf": [
                               {
-                                "type": "string",
                                 "pattern": "^.{16}$"
                               },
                               {
-                                "type": "string",
-                                "pattern": "(.*)([a-e]+)(.*)"
+															  "pattern": "([a-z0-9]){16}"
                               }
                             ]
                         }
