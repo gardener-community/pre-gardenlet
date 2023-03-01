@@ -1,4 +1,4 @@
 apiVersion: v2
 name: pre-gardenlet
-description: A Helm chart for prepairing the gardenlet installation
-version: 1.38.2
+description: A Helm chart for preparing the gardenlet installation
+version: 1.40.0
