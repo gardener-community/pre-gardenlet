@@ -2,9 +2,10 @@ global:
   token:
     id: "12345a"                # 6-digit
     secret: "1234567890abcdef"  # 16-digit
-#  additionalSecrets:
-#    - name: testsecret
-#      namespace: testsecretnamespace
-#      stringData:
-#        test: test
-#        test2: test
+  additionalSecrets:
+    - name: testsecret
+      namespace: testsecretnamespace
+      stringData:
+        test2: test
+      data:
+        test: dGVzdAo=
